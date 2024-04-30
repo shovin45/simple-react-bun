@@ -1,0 +1,23 @@
+{
+  "name": "react-bun",
+  "module": "index.tsx",
+  "type": "module",
+  "scripts": {
+    "build": "bun run ./build.ts",
+    "test": "bun test",
+    "dev": "bun run --watch ./server/server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
